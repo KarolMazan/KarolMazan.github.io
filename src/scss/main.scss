@@ -1,9 +1,19 @@
 @import "~normalize.css";
+
 @import "modules/hero.scss";
+
 @import "_variables";
+
 @import "modules/hello.scss";
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+
 @import "modules/skills.scss";
+
+@import "modules/projects.scss";
+
+
+
 html {
   box-sizing: border-box;
 }

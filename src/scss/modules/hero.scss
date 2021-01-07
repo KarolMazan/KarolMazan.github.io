@@ -1,19 +1,21 @@
 @import "_variables";
 
 .hero {
-    padding: 74px 16px 88px;
+    padding: 74px 16px;
     &__contact {
         border-radius: 64px;
         color: white;
         background: $lightBlue;
-
+        display: inline-block;
         padding: 4px 24px;
         text-decoration: none;
         font-weight: bold;
         font-size: 20px;
         line-height: 40px;
     }
-
+    &__description {
+       text-align: center;
+    }
     &__paragraph {
         font-weight: 300;
         font-size: 16px;
