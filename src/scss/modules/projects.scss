@@ -1,5 +1,5 @@
 .projects {
-    padding: 64px 16px 0px;
+    padding: 64px 16px 88px;
     &__description {
         font-weight: 300;
         font-size: 16px;
@@ -19,7 +19,7 @@
     background: $gray;
     border-radius: 16px;
     overflow: hidden;
-    color: $lightConsole;
+    color: $consoleGray;
     font-weight: normal;
     font-size: 13px;
     line-height: 24px;
@@ -45,6 +45,7 @@
         display: block;
         text-align: right;
         font-weight: normal;
+        color: $consoleGray;
     }
     &__link {
         color: $linkConsole;
