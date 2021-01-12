@@ -6,6 +6,9 @@
         max-width: 768px;
         margin: 0 auto;
     }
+    @media (min-width: $desktop) {
+        max-width: 100%;
+    }
     &__bubble {
         position: absolute;
         left: calc(50% + 90px);
@@ -23,7 +26,29 @@
         line-height: 40px;
     }
     &__description {
-       text-align: center;
+        text-align: center;
+        @media (min-width: $desktop) {
+            max-width: 786px;
+            margin: 0 auto;
+            position: relative;
+            &::before,
+            &::after {
+                width: 82.94px;
+                height: 254.88px;
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+            &::before {
+                background: url('../assets/img/{.svg');
+                    right: 100%;
+            }
+            &::after {
+                background: url('../assets/img/}.svg');
+                    left: 100%;
+            }
+        }
     }
     &__paragraph {
         font-weight: 300;
@@ -82,9 +107,8 @@
                 display: block;
                 width: 17.42px;
                 height: 22.66px;
-                background: url('../assets/img/Speech_cloud (1).svg');
+                background: url("../assets/img/Speech_cloud (1).svg");
             }
-        
         }
     }
     &__link {
@@ -94,5 +118,6 @@
     }
     &__special {
         color: $blue;
+        white-space: nowrap;
     }
 }
