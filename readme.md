@@ -1,4 +1,4 @@
-![cover](https://KarolMazan.github.io/OG.png)
+![cover](https://github.com/karolmazan/KarolMazan.github.io/public/OG.png)
 
 # Karol Mazan - Junior Frontend Developer
 
