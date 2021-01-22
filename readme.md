@@ -6,11 +6,11 @@
 
 My simple portfolio website
 
-## How to use it?
+## What i use for it?
 
--WTF Webpack starterkit
--HTML + CSS + JS
--GitHub API
+- WTF Webpack starterkit
+- HTML + CSS + JS
+- GitHub API
 
 ## Available scripts
 
